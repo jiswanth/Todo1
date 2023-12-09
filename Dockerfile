@@ -1,3 +1,5 @@
 FROM nginx:latest
 WORKDIR /usr/share/nginx/html
-COPY ./todo/ .
+COPY index.html .
+COPY web.css .
+COPY web.js .
